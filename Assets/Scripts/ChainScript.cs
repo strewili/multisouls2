@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
-using Valve.VR.InteractionSystem;
+
 using static GameManagerScript;
 using static UIContent;
 
@@ -20,8 +20,7 @@ public class ChainScript : MonoBehaviour
 
     public List<GameObject> ChainParts;
 
-    // Haptics
-    public SteamVR_Action_Vibration hapticAction;
+  
 
     public GameManagerScript manager;
 
@@ -105,7 +104,7 @@ public class ChainScript : MonoBehaviour
     {
         if (enableHaptics)
         {
-            hapticAction.Execute(0, 100f / 1000000f, 1000000f / 100f, 1, SteamVR_Input_Sources.LeftHand);
+            hapticAction.Execute(0, 100f / 1000000f, 1000000f / 100f, 1, Input_Sources.LeftHand);
         }
     }
 

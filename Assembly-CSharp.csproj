@@ -62,469 +62,198 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Aura 2\System\Code\Classes\AuraQualitySettings.cs" />
-    <Compile Include="Assets\Scripts\FlashLightSwitch.cs" />
     <Compile Include="Assets\Aura 2\Examples\Sources\Scripts\LightFlicker.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Longbow\Scripts\ArcheryTarget.cs" />
-    <Compile Include="Assets\VRInteraction\Scripts\VRInteractor.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\DontDestroyOnLoad.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRBow.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\SwappableRenderTexture.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Longbow\Scripts\Balloon.cs" />
     <Compile Include="Assets\Magazine.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\Scripts\ControllerHintsExample.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\AmbientLightingCommonDataManager.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\Equippable.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\Texture3DAtlasComposer.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Action_Vector3.cs" />
     <Compile Include="Assets\Scripts\FloatConversion.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Action_Skeleton.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\DestroyOnDetachedFromHand.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\VolumesCommonDataManager.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\RenderModel.cs" />
     <Compile Include="Assets\RainMaker\Demo\Standard Assets\Environment\Water\Water\Scripts\MeshContainer.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRGunSlide.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRSecondHeld.cs" />
     <Compile Include="Assets\LunarCats Studio\AdvancedScrollingPanel\Scenes\Scripts\CheckGems.cs" />
     <Compile Include="Assets\OldBrickHouse\Source\Scripts\OldHouse_Lights.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRChangeFireModeButton.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_EnumEqualityComparer.cs" />
     <Compile Include="Assets\Scripts\ClipboardScript.cs" />
     <Compile Include="Assets\LunarCats Studio\AdvancedScrollingPanel\Scripts\Controllers\KeyboardManager.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRGunHandlerRef.cs" />
     <Compile Include="Assets\hazelwoodloft\Scripts\LightmappingManager.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Action_Boolean.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Attachments\VRMagazine.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\Interactable.cs" />
-    <Compile Include="Assets\VRInteraction\Scripts\Utils\PlayParticleOnEnable.cs" />
-    <Compile Include="Assets\Flare Gun\Scripts\flarebullet.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Util\VRHandAnimator.cs" />
     <Compile Include="Assets\Breakable Objects\Scripts\Demo\MouseOrbitCycle.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\BehaviourUnityEvents\SteamVR_Behaviour_Vector2Event.cs" />
     <Compile Include="Assets\House_On_The_Lake\Scripts\OpenDoor.cs" />
     <Compile Include="Assets\Scripts\SecretDoorSwitch.cs" />
     <Compile Include="Assets\hazelwoodloft\Geometry\Materials\Floor_reflective_data_MirrorReflection\MirrorReflection.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_UpdateModes.cs" />
-    <Compile Include="Assets\VRInteraction\Scripts\VRInteractableItem.cs" />
     <Compile Include="Assets\OldBrickHouse\Source\Scripts\Gasheater.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Enums\Presets.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\VolumeInjectionParameters.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_CameraMask.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_ExternalCamera.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_Camera.cs" />
     <Compile Include="Assets\Aura 2\Examples\Sources\Scripts\DebugFps.cs" />
     <Compile Include="Assets\hazelwoodloft\Geometry\Materials\Floor_reflective_data\Floor_PlanarReflection.cs" />
     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\BuggyBuddy\Audio\AmbientSound.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\GrabTypes.cs" />
     <Compile Include="Assets\OldBrickHouse\Source\Scripts\WallClock.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRAmmoPack.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Longbow\Scripts\Longbow.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\BuggyBuddy\WheelDust.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Enums\DenoisingFilterRange.cs" />
     <Compile Include="Assets\AnimatedBook\Scripts\AnimatedBookController.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\SphericalHarmonicsFirstBandCoefficients.cs" />
-    <Compile Include="Assets\LunarCats Studio\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
     <Compile Include="Assets\Aura 2\Examples\Sources\Scripts\SinRotationOffset.cs" />
-    <Compile Include="Assets\SteamVR_OFF\InteractionSystem\Core\Scripts\Throwable.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Extras\SteamVR_TestTrackedCamera.cs" />
     <Compile Include="Assets\Scripts\UIContent.cs" />
-    <Compile Include="Assets\LunarCats Studio\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
-    <Compile Include="Assets\Scripts\ChainBreakTrigger.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Input.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Statics\AuraEditorPrefs.cs" />
-    <Compile Include="Assets\Scripts\shooter.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\BehaviourUnityEvents\SteamVR_Behaviour_Skeleton_ConnectedChangedEvent.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\InteractableDebug.cs" />
     <Compile Include="Assets\RainMaker\Prefab\RainScript.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\BuggyBuddy\BuggyBuddy.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\SpotLightsManager.cs" />
-    <Compile Include="Assets\helicopterChain.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\SpawnAndAttachToHand.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\BathroomExitTrigger.cs" />
     <Compile Include="Assets\hazelwoodloft\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\FallbackCameraController.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Util\DisplayAmmo.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\BodyCollider.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\BehaviourUnityEvents\SteamVR_Behaviour_SingleEvent.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Statics\AuraPreset.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_SphericalProjection.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\BuggyBuddy\LockToPoint.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Attachments\AttachmentInputForwarder.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\BehaviourUnityEvents\SteamVR_Behaviour_Pose_ConnectedChangedEvent.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Enums\Texture3DFiltering.cs" />
     <Compile Include="Assets\LunarCats Studio\AdvancedScrollingPanel\Scenes\Scripts\LookAt.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\HideOnHandFocusLost.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Plugins\openvr_api.cs" />
     <Compile Include="Assets\LunarCats Studio\Standard Assets\Characters\FirstPersonCharacter\Scripts\RigidbodyFirstPersonController.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\DynamicNoiseParameters.cs" />
     <Compile Include="Assets\hazelwoodloft\Standard Assets\Character Controllers\Sources\Scripts\PlatformInputController.cs" />
     <Compile Include="Assets\hazelwoodloft\Standard Assets\Character Controllers\Sources\Scripts\FPSInputController.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Action_Vibration.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRArrow.cs" />
-    <Compile Include="Assets\Scripts\HintsAndNarrativeScript.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\FrustumSettingsToId.cs" />
     <Compile Include="Assets\LunarCats Studio\AdvancedScrollingPanel\Scenes\Scripts\StyleSwitching.cs" />
-    <Compile Include="Assets\VR watch\Scripts\Watch.cs" />
     <Compile Include="Assets\Aura 2\Examples\Sources\Scripts\AutoMoveAndRotate.cs" />
     <Compile Include="Assets\OldRadio\Okean\CamRotat.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\Scripts\RenderModelChangerUI.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Input_BindingFile.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\Scripts\Planting.cs" />
-    <Compile Include="Assets\Scripts\SafeBoxPasscode.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\ComplexThrowable.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Util\OrbitCamera.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Input_Source.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Statics\Aura.cs" />
-    <Compile Include="Assets\VRInteraction\Scripts\Utils\RigidbodyMarker.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Attachments\VRAttachment.cs" />
-    <Compile Include="Assets\hazelwoodloft\Scripts\LightMapDataContainerObject.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Extensions\Vector4Extensions.cs" />
+    <Compile Include="Assets\hazelwoodloft\Scripts\LightMapDataContainerObject.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Statics\CustomGizmo.cs" />
-    <Compile Include="Assets\SteamVR_Input\SteamVR_Input_Actions.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Helpers\MathHelpers.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\TextureMaskData.cs" />
     <Compile Include="Assets\LunarCats Studio\AdvancedScrollingPanel\Scenes\Scripts\DoorManager.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\Scripts\ButtonEffect.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Teleport\Scripts\IgnoreTeleportTrace.cs" />
     <Compile Include="Assets\Scripts\OvenScript.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Util\GrenadeLauncherMod.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\InputModule.cs" />
     <Compile Include="Assets\Scripts\GameManagerScript.cs" />
-    <Compile Include="Assets\VRInteraction\Scripts\Pooling\SceneObjectSettings.cs" />
     <Compile Include="Assets\RainMaker\Demo\Standard Assets\Environment\Water\Water\Scripts\Water.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\AuraVolume.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Attachments\ScopeControl.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_DefaultActionSet.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Input_ActionSetUsages.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\FrustumSettingsParameters.cs" />
     <Compile Include="Assets\RainMaker\Demo\DemoScriptStartRainOnSpaceBar.cs" />
     <Compile Include="Assets\RainMaker\Prefab\RainScript2D.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Teleport\Scripts\Teleport.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Extensions\ObjectExtensions.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRGunTrigger.cs" />
     <Compile Include="Assets\LunarCats Studio\Standard Assets\Utility\CurveControlledBob.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_RingBuffer.cs" />
     <Compile Include="Assets\RainMaker\Prefab\BaseRainScript.cs" />
     <Compile Include="Assets\RainMaker\Demo\DemoScript2D.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Teleport\Scripts\AllowTeleportWhileAttachedToHand.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\Scripts\FlowerPlanted.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Extras\SteamVR_LaserPointer.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\VolumeData.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\BehaviourUnityEvents\SteamVR_Behaviour_BooleanEvent.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\SeeThru.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_Skybox.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\VolumesManager.cs" />
     <Compile Include="Assets\RainMaker\Demo\Standard Assets\Environment\Water\Water\Scripts\SpecularLighting.cs" />
     <Compile Include="Assets\LunarCats Studio\AdvancedScrollingPanel\Scripts\Controllers\HightLightEffect.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\PointLightsManager.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\BuggyBuddy\trackCam.cs" />
     <Compile Include="Assets\RainMaker\Demo\Standard Assets\Environment\Water\Water\Scripts\PlanarReflection.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRGrenade.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\JoeJeff\ProceduralHats.cs" />
-    <Compile Include="Assets\Scripts\GunLoadScript.cs" />
     <Compile Include="Assets\AnimatedBook\Scripts\BookTransitionState.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Util\VRReadout.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\Hand.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_Ears.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\EnumFlags.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Teleport\Scripts\ChaperoneInfo.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\LevelsParameters.cs" />
-    <Compile Include="Assets\Flare Gun\Scripts\swayc.cs" />
-    <Compile Include="Assets\VR watch\Scripts\ArmMOvement.cs" />
     <Compile Include="Assets\RainMaker\Demo\Standard Assets\Environment\Water\Water\Scripts\WaterTile.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\Scripts\ButtonExample.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Input_References.cs" />
-    <Compile Include="Assets\Scripts\DrawerInteraction.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_CameraFlip.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Helpers\LightHelpers.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\LinearAnimator.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Attachments\VRBeltMagazine.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\LinearDisplacement.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Enums\FrustumParameters.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\VolumeDynamicNoiseData.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_IK.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Attributes\ColorCircularPickerAttribute.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\ControllerHoverHighlight.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Inventory\ItemSlot.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Util\ProjectileShooter.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Action_Vector2.cs" />
-    <Compile Include="Assets\Scripts\SafeBoxOpenDoor.cs" />
     <Compile Include="Assets\Breakable Objects\Scripts\Demo\Rotator.cs" />
     <Compile Include="Assets\hazelwoodloft\Geometry\Materials\Floor_reflective_data\Floor_ReflectionScriptCamera.cs" />
+    <Compile Include="Assets\Scenes\VRFixes.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\ObjectsCuller.cs" />
     <Compile Include="Assets\RainMaker\Demo\DemoScript.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\Scripts\SkeletonUIOptions.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Util\ApplyDamage.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\Grenade\Grenade.cs" />
     <Compile Include="Assets\Scripts\PaperHints.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\DistanceHaptics.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\DirectionalLightsManager.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_Frustum.cs" />
     <Compile Include="Assets\LunarCats Studio\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\SafeBoxMonitor.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Input_Sources.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Teleport\Scripts\TeleportMarkerBase.cs" />
     <Compile Include="Assets\Scripts\CancelTeleportHint.cs" />
-    <Compile Include="Assets\Scripts\CutterScript.cs" />
     <Compile Include="Assets\hazelwoodloft\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonController.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Behaviour_Skeleton.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Extensions\SphericalHarmonicsExtensions.cs" />
-    <Compile Include="Assets\VRInteraction\Scripts\Controls\ForceGrabToggle.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\LevelsData.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_DefaultAction.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_ActivateActionSetOnLoad.cs" />
     <Compile Include="Assets\LunarCats Studio\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Longbow\Scripts\ArrowHand.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Extensions\FloatExtensions.cs" />
-    <Compile Include="Assets\SteamVR_Input\SteamVR_Input_Initialization.cs" />
-    <Compile Include="Assets\VRInteraction\Scripts\Utils\VRUtils.cs" />
-    <Compile Include="Assets\VRInteraction\Scripts\VRInput.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Action_In.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Longbow\Scripts\BalloonColliders.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Action.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRClipReceiver.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRRevolverSpeedLoader.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_ActionDirections.cs" />
     <Compile Include="Assets\RainMaker\Demo\Standard Assets\Environment\Water\Water\Scripts\Displace.cs" />
     <Compile Include="Assets\Scripts\RadioAudio.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\UIElement.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\LinearBlendshape.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\LinearMapping.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\Texture3DMask.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Longbow\Scripts\BalloonSpawner.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\ItemPackageReference.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Teleport\Scripts\TeleportArc.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\SleepOnAwake.cs" />
     <Compile Include="Assets\LunarCats Studio\AdvancedScrollingPanel\Scripts\Controllers\MouseManager.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\Frustum.cs" />
     <Compile Include="Assets\Chain\Scripts\ChainRelease_C.cs" />
-    <Compile Include="Assets\VRInteraction\Scripts\VRItemCollider.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Teleport\Scripts\TeleportArea.cs" />
     <Compile Include="Assets\LunarCats Studio\Standard Assets\Utility\FOVKick.cs" />
     <Compile Include="Assets\AnimatedBook\Scripts\BookUIButtonController.cs" />
     <Compile Include="Assets\Scripts\LightMapSwitcher.cs" />
     <Compile Include="Assets\OldBrickHouse\Source\Scripts\OldHouseAnimations.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\FrustumSettings.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\TargetRange\TargetRange.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Extensions\FrustumParametersEnumExtensions.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Action_Pose.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRGunHandler.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_Behaviour.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\CullableObject.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\MatrixFloats.cs" />
     <Compile Include="Assets\RainMaker\Demo\Standard Assets\Environment\Water\Water\Scripts\WaterBase.cs" />
-    <Compile Include="Assets\LunarCats Studio\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
-    <Compile Include="Assets\Scripts\Pickable.cs" />
-    <Compile Include="Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_mixedreality.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\DirectionalShadowDataCollector.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\DirectionalLightParameters.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\DestroyOnParticleSystemDeath.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_Fade.cs" />
-    <Compile Include="Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_htc_viu.cs" />
-    <Compile Include="Assets\VRInteraction\Scripts\Pooling\PoolingManager.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\Buffers.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\Scripts\TargetHitEffect.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\Texture2DMask.cs" />
     <Compile Include="Assets\Aura 2\Examples\Sources\Scripts\MoveSinCos.cs" />
     <Compile Include="Assets\Scripts\SecretRoomEnterTrigger.cs" />
     <Compile Include="Assets\Scripts\PlayerHeadUI.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\FrustumCuller.cs" />
     <Compile Include="Assets\Scripts\SafeboxSwitch.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\JoeJeff\JoeJeffController.cs" />
     <Compile Include="Assets\Stellar Sky\Demo\CameraController.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Hints\Scripts\ControllerButtonHints.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRSlideAnimation.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Statics\AuraUtility.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_ActionSet_Manager.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Util\DecalChanger.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\SoundDeparent.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_Settings.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\Scripts\FloppyHand.cs" />
     <Compile Include="Assets\Scripts\OvenTrigger.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Input_ActionScopes.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\Unparent.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\DebugUI.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_TrackedCamera.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Action_Single.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Behaviour_Single.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_Menu.cs" />
-    <Compile Include="Assets\VRInteraction\Scripts\Utils\EnableOnHMD.cs" />
-    <Compile Include="Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_platformer.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\SoundPlayOneshot.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRTripod.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\InteractableHoverEvents.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Util\SceneLoader.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\BuggyBuddy\BuggyController.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Longbow\Scripts\ExplosionWobble.cs" />
     <Compile Include="Assets\LunarCats Studio\AdvancedScrollingPanel\Scenes\Scripts\DisplayPanelMessageOnTrigger.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\SpawnAndAttachAfterControllerIsTracking.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_RenderModel.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Extensions\Gaia\Aura2GaiaExtension.cs" />
-    <Compile Include="Assets\VRInteraction\Scripts\Controls\BasicToggle.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Longbow\Scripts\BalloonHapticBump.cs" />
     <Compile Include="Assets\LunarCats Studio\AdvancedScrollingPanel\Scripts\PanelMessageBox.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_Render.cs" />
     <Compile Include="Assets\Scripts\KeyHoldTrigger.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\ShadowmapsCollector.cs" />
     <Compile Include="Assets\Scripts\LightControl.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_Overlay.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\LightsCommonDataManager.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Teleport\Scripts\TeleportPoint.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Attachments\VRAttachmentReceiver.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\Scripts\CustomSkeletonHelper.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\HoverButton.cs" />
-    <Compile Include="Assets\VRInteraction\Scripts\Utils\DontHide.cs" />
     <Compile Include="Assets\LunarCats Studio\AdvancedScrollingPanel\Scripts\Controllers\ControllersManager.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Extensions\IntExtensions.cs" />
     <Compile Include="Assets\LightFlashing.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_LoadLevel.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Input_ActionFile.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Enums\StereoMode.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\AuraCamera.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR.cs" />
     <Compile Include="Assets\Scripts\RadioSwitch.cs" />
-    <Compile Include="Assets\VRInteraction\Scripts\Utils\DestroyIn.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\IgnoreHovering.cs" />
     <Compile Include="Assets\LunarCats Studio\AdvancedScrollingPanel\Scripts\Controllers\GamePadManager.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRBulletReceiver.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Longbow\Scripts\Arrow.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Attachments\VRRevolverMagazine.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Skeleton_Pose.cs" />
     <Compile Include="Assets\RainMaker\Demo\Standard Assets\Environment\Water (Basic)\Scripts\WaterBasic.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\PlaySound.cs" />
-    <Compile Include="Assets\SteamVR_Input\SteamVR_Input_ActionSets.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\AuraBaseSettings.cs" />
     <Compile Include="Assets\OldBrickHouse\Source\Scripts\Raycaster_Interactions.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\LinearAudioPitch.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\VolumeInjectionColorParameters.cs" />
-    <Compile Include="Assets\ShutterSwitch.cs" />
     <Compile Include="Assets\Chain\Scripts\ChainMouseOrbit_C.cs" />
     <Compile Include="Assets\Aura 2\Examples\Sources\Scripts\AuraFreeCamera.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\BuggyBuddy\trackObj.cs" />
     <Compile Include="Assets\Scripts\CurtainScript.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Util\ExampleTarget.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_ActionSet.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\ModalThrowable.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\TransformParameters.cs" />
-    <Compile Include="Assets\Scripts\ThrowableBothHand.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Extras\SteamVR_ForceSteamVRMode.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\ItemPackage.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_Utils.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\Breakable Objects\Scripts\Demo\RollingBall.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\JoeJeff\JoeJeff.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\LinearDrive.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\BehaviourUnityEvents\SteamVR_Behaviour_Pose_DeviceIndexChangedEvent.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Util\VRReloader.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Breakable Objects\Scripts\Demo\respawner.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Extensions\Matrix4x4Extensions.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\JoeJeff\JoeJeffGestures.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Extensions\StringExtensions.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Extensions\CameraExtensions.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_PlayArea.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_Events.cs" />
-    <Compile Include="Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_buggy.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\Texture2DArrayComposer.cs" />
     <Compile Include="Assets\hazelwoodloft\Geometry\Materials\Floor_reflective_data_MirrorReflection\Rotate.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Inventory\InventoryStorage.cs" />
-    <Compile Include="Assets\Aura 2\System\Code\Helpers\XrHelpers.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Behaviour_Vector3.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\AuraLight.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Behaviour_Pose.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Behaviour_Vector2.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Extras\SteamVR_GazeTracker.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Behaviour_SkeletonCustom.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRPhysicalBullet.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\Scripts\InteractableExample.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Util\Mover.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\BehaviourUnityEvents\SteamVR_Behaviour_PoseEvent.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\LinearAnimation.cs" />
-    <Compile Include="Assets\Flare Gun\Scripts\flaregun.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Extensions\RenderTextureExtensions.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\Util.cs" />
     <Compile Include="Assets\Scripts\RadioMonitor.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\SpotLightParameters.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Extensions\Texture3DExtensions.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\CircularDrive.cs" />
-    <Compile Include="Assets\Scripts\InteractTaskTrigger.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Longbow\Scripts\FireSource.cs" />
     <Compile Include="Assets\AnimatedBook\Scripts\Demo\BookEventListener.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Action_Out.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRAmmoBox.cs" />
-    <Compile Include="Assets\Scripts\FlashLightGrabbed.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\PointLightParameters.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\TargetRange\TargetHitBox.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\DestroyOnTriggerEnter.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Behaviour_Boolean.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\BehaviourUnityEvents\SteamVR_Behaviour_SkeletonEvent.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Attributes\Texture3DPreviewAttribute.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\BehaviourUnityEvents\SteamVR_Behaviour_Pose_TrackingChangedEvent.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\VolumeInjectionCommonParameters.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\AuraResourcesCollection.cs" />
     <Compile Include="Assets\OldBrickHouse\Source\Scripts\Door.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Classes\CommonDataManager.cs" />
-    <Compile Include="Assets\SteamVR_Input\ActionSetClasses\SteamVR_Input_ActionSet_default.cs" />
     <Compile Include="Assets\LunarCats Studio\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\CustomEvents.cs" />
     <Compile Include="Assets\hazelwoodloft\Scripts\LightMapData.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Scripts\SteamVR_TrackedObject.cs" />
     <Compile Include="Assets\RainMaker\Demo\Standard Assets\Environment\Water\Water\Scripts\GerstnerDisplace.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\TargetRange\TargetRangeTarget.cs" />
     <Compile Include="Assets\Chain\Scripts\ChainRotate_C.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\VolumeInjectionShape.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Util\Fade.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Attachments\AttachmentObjectToggle.cs" />
     <Compile Include="Assets\Breakable Objects\Scripts\BreakableObject.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\BehaviourUnityEvents\SteamVR_Behaviour_Skeleton_TrackingChangedEvent.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Extensions\GenericExtensions.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\LunarCats Studio\AdvancedScrollingPanel\Scenes\Scripts\ActivateOnTrigger.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\SphericalHarmonicsCoefficients.cs" />
     <Compile Include="Assets\Scripts\TVScript.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRPhysicalBulletRigidbody.cs" />
-    <Compile Include="Assets\Scripts\HandleTrigger.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Extras\SteamVR_TestThrow.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Util\DamageInfo.cs" />
-    <Compile Include="Assets\Scripts\SafeboxOpener.cs" />
-    <Compile Include="Assets\VRInteraction\Scripts\Utils\VREvent.cs" />
     <Compile Include="Assets\DoorIsOpen.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\Scripts\TargetMeasurement.cs" />
-    <Compile Include="Assets\VRWeaponInteractor\Scripts\Weapons\VRLoadableBullet.cs" />
     <Compile Include="Assets\Scripts\RoofTrigger.cs" />
     <Compile Include="Assets\RainMaker\Prefab\RainCollision.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Input_Generator_Names.cs" />
     <Compile Include="Assets\LunarCats Studio\Standard Assets\Utility\LerpControlledBob.cs" />
     <Compile Include="Assets\LunarCats Studio\AdvancedScrollingPanel\Scripts\MessageManager.cs" />
     <Compile Include="Assets\Scripts\MusicBoxScript.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Longbow\Scripts\ArrowheadRotation.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Structs\VolumeGradient.cs" />
-    <Compile Include="Assets\LunarCats Studio\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
-    <Compile Include="Assets\Flare Gun\Scripts\flareround.cs" />
-    <Compile Include="Assets\Scripts\LightSwitch.cs" />
-    <Compile Include="Assets\AnimatedBook\Scripts\Demo\DemoBookController.cs" />
     <Compile Include="Assets\Scripts\ChainScript.cs" />
     <Compile Include="Assets\hazelwoodloft\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Longbow\Scripts\SoundBowClick.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Extensions\Vector3Extensions.cs" />
     <Compile Include="Assets\LunarCats Studio\AdvancedScrollingPanel\Scenes\Scripts\MouseEvent.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\BehaviourUnityEvents\SteamVR_Behaviour_Vector3Event.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Samples\Squishy\SquishyToy.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\VelocityEstimator.cs" />
     <Compile Include="Assets\hazelwoodloft\Standard Assets\Character Controllers\Sources\Scripts\ThirdPersonCamera.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Enums\VolumeType.cs" />
-    <Compile Include="Assets\Scripts\DiaryFlip.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Enums\OcclusionCullingAccuracy.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\Input\SteamVR_Skeleton_Poser.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\ItemPackageSpawner.cs" />
-    <Compile Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Scripts\HapticRack.cs" />
     <Compile Include="Assets\Aura 2\System\Code\Statics\SceneViewVisualization.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -532,18 +261,13 @@
     <None Include="Assets\vechile_mega_pack\source\Shaders\Bump Spec Map.shader" />
     <None Include="Assets\Aura 2\System\Code\Shaders\ComputeShaders\ComputeAccumulationComputeShader.compute" />
     <None Include="Assets\Aura 2\System\Code\Shaders\Shaders\System\StorePointLightShadowMap.shader" />
-    <None Include="Assets\StreamVR_DISABLED\Input\Plugins\JSON.NET\Valve.Newtonsoft.Json.dll" />
     <None Include="Assets\IceMaterial\Shader\Ice.shader" />
-    <None Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\Aura 2\System\Code\Shaders\Shaders\System\StorePointLightCookieMap.shader" />
     <None Include="Assets\Aura 2\System\Code\Shaders\ComputeShaders\ComputeMaximumDepthComputeShader.compute" />
     <None Include="Assets\Aura 2\System\Code\Shaders\ComputeShaders\ComputeDataComputeShader.compute" />
-    <None Include="Assets\StreamVR_DISABLED\InteractionSystem\Teleport\Shaders\Highlight.shader" />
     <None Include="Assets\Aura 2\System\Code\Shaders\Shaders\System\ProcessOcclusionTextureShader.shader" />
     <None Include="Assets\TGS Moon\Shaders\Moon.shader" />
-    <None Include="Assets\StreamVR_DISABLED\InteractionSystem\Core\Shaders\Silhouette.shader" />
     <None Include="Assets\Breakable Objects\Breakable Window\Shaders\Unluck Reflective Glass SDR.shader" />
-    <None Include="Assets\StreamVR_DISABLED\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
     <None Include="Assets\Aura 2\System\Code\Shaders\Shaders\System\StoreShadowDataShader.shader" />
     <None Include="Assets\Aura 2\System\Code\Shaders\Shaders\System\StoreDirectionalSpotLightCookieMap.shader" />
   </ItemGroup>
@@ -1026,10 +750,6 @@
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>Library\PackageCache\com.unity.ext.nunit@031a54704bff\net40\unity-custom\nunit.framework.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>Assets\StreamVR_DISABLED\Input\Plugins\JSON.NET\Valve.Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System.IO.Hashing">
@@ -1536,16 +1256,8 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.63f1-x86_64\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+    <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
@@ -1564,36 +1276,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Collections.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.AI.Navigation">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    <Reference Include="Unity.XR.CoreUtils">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    <Reference Include="Unity.Animation.Rigging.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Multiplayer.Center.Common">
-      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.AI.Navigation.Updater">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
@@ -1604,8 +1300,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    <Reference Include="Unity.Cinemachine.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Cinemachine.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
@@ -1616,12 +1316,164 @@
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.ShaderGraph.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Timeline">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Center.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Splines">
+      <HintPath>Library\ScriptAssemblies\Unity.Splines.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Unity.Cinemachine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.Fbx">
+      <HintPath>Library\ScriptAssemblies\Autodesk.Fbx.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Oculus">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PPv2URPConverters">
+      <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rendering.LightTransport.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Splines.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Splines.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Center.Common">
+      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.Fbx.Editor">
+      <HintPath>Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Interaction.Toolkit">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
@@ -1636,52 +1488,40 @@
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+    <Reference Include="Unity.XR.OpenXR.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    <Reference Include="Unity.Settings.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Settings.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor.Shared">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
+    <Reference Include="Unity.XR.Oculus.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Multiplayer.Center.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    <Reference Include="Unity.Formats.Fbx.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
+    <Reference Include="Unity.XR.OpenXR.Features.MetaQuestSupport">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.Features.MetaQuestSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
@@ -1692,12 +1532,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Collections">
-      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+    <Reference Include="Unity.XR.OpenXR">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="PPv2URPConverters">
-      <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+    <Reference Include="Unity.Formats.Fbx.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst">
@@ -1712,24 +1552,28 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Rendering.LightTransport.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.CoreUtils.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Rendering.LightTransport.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.InputSystem">
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

@@ -7,7 +7,6 @@ public class GameManagerScript : MonoBehaviour
 {
     public bool debug = false;
 
-
     public enum TaskTypes
     {
         RELEASE,
@@ -45,7 +44,7 @@ public class GameManagerScript : MonoBehaviour
         ICE_CUBE_TOUCHED,
         PICKED_UP_KEY,
         MUSIC_BOX_KEY_INSERTED,
-        SECRETE_DOOR_OPEN, // When door open finishes
+        SECRETE_DOOR_OPEN,
         ENTERED_SECRET_ROOM,
         PICKED_UP_GUN,
         DOOR_CLOSED_WHILE_IN,
@@ -64,36 +63,45 @@ public class GameManagerScript : MonoBehaviour
 
     public HashSet<TaskTypes> completedTasks;
     public HashSet<TaskTypes> activeTasks;
+
     public GameObject UIDisplaySystem;
 
     private HashSet<EventTypes> triggeredEvents;
-    private HintsAndNarrativeScript UIDisplay;
 
-    // Start is called before the first frame update
     void Start()
     {
         completedTasks = new HashSet<TaskTypes>();
         activeTasks = new HashSet<TaskTypes>();
         triggeredEvents = new HashSet<EventTypes>();
-        UIDisplay = UIDisplaySystem.GetComponent<HintsAndNarrativeScript>();
     }
 
-    public void TriggerTask(TaskTypes task, EventTypes afterUI=EventTypes.NULL, float extraDelay = 0.2f)
+    public void TriggerTask(TaskTypes task, EventTypes afterUI = EventTypes.NULL, float extraDelay = 0.2f)
     {
-        StartCoroutine(TriggerDelay(task, afterUI == EventTypes.NULL ? 0 + extraDelay : getAudioLength(afterUI) + extraDelay));
+        StartCoroutine(TriggerDelay(task,
+            afterUI == EventTypes.NULL
+            ? 0 + extraDelay
+            : getAudioLength(afterUI) + extraDelay));
     }
 
     IEnumerator TriggerDelay(TaskTypes task, float delay)
     {
         yield return new WaitForSeconds(delay);
+
         if (!activeTasks.Contains(task) && !completedTasks.Contains(task))
         {
             log("Trigger: " + task.ToString());
 
             activeTasks.Add(task);
-            UIDisplay.updateTasks(GetTasks(), task);
+
+            if (UIDisplaySystem != null)
+            {
+                UIDisplaySystem.SendMessage(
+                    "updateTasks",
+                    new object[] { GetTasks(), task },
+                    SendMessageOptions.DontRequireReceiver
+                );
+            }
         }
-        
     }
 
     public void CompleteTask(TaskTypes task)
@@ -101,23 +109,35 @@ public class GameManagerScript : MonoBehaviour
         if (!completedTasks.Contains(task))
         {
             log("Complete: " + task.ToString());
+
             activeTasks.Remove(task);
             completedTasks.Add(task);
-            UIDisplay.completeTask(GetTasks(), task);
+
+            if (UIDisplaySystem != null)
+            {
+                UIDisplaySystem.SendMessage(
+                    "completeTask",
+                    new object[] { GetTasks(), task },
+                    SendMessageOptions.DontRequireReceiver
+                );
+            }
         }
     }
 
     public string GetTasks()
     {
         string tasks = "";
+
         foreach (TaskTypes task in activeTasks)
         {
             tasks += " - " + TaskToUI[task] + "\n";
         }
+
         if (activeTasks.Count == 0)
         {
             return "";
         }
+
         return tasks.Substring(0, tasks.Length - 1);
     }
 
@@ -129,11 +149,12 @@ public class GameManagerScript : MonoBehaviour
         }
     }
 
-    public void TriggerEvent(EventTypes e, float delay = 0) {
+    public void TriggerEvent(EventTypes e, float delay = 0)
+    {
         if (!triggeredEvents.Contains(e))
         {
             triggeredEvents.Add(e);
-            //UIDisplay.updateEventNarrative(EventToVoice[e]);
+
             if (e == EventTypes.ESCAPED || e == EventTypes.FAILED)
             {
                 StartCoroutine(TriggerUIEventDelay(e, delay));
@@ -145,27 +166,41 @@ public class GameManagerScript : MonoBehaviour
         }
     }
 
-    IEnumerator TriggerUIEventDelay(EventTypes e, float delay=0)
+    IEnumerator TriggerUIEventDelay(EventTypes e, float delay = 0)
     {
         yield return new WaitForSeconds(delay);
+
         string words = EventToUI[e];
-        if (e == EventTypes.ESCAPED)
+        if (UIDisplaySystem != null)
         {
-            UIDisplay.updateEventUI(words, getUILength(e), false);
-        } else
-        {
-            UIDisplay.updateEventUI(words, getUILength(e), true);
+            UIDisplaySystem.SendMessage(
+                "updateEventUI",
+                words,
+                SendMessageOptions.DontRequireReceiver
+            );
         }
     }
 
-    IEnumerator TriggerEventVoiceDelay(EventTypes e, float delay =0)
+    IEnumerator TriggerEventVoiceDelay(EventTypes e, float delay = 0)
     {
         yield return new WaitForSeconds(delay);
-        UIDisplay.updateEventNarrative(EventToVoice[e]);
+
+        if (UIDisplaySystem != null)
+        {
+            UIDisplaySystem.SendMessage(
+                "updateEventNarrative",
+                EventToVoice[e],
+                SendMessageOptions.DontRequireReceiver
+            );
+        }
     }
 
-    public static int getUILength(EventTypes e) {
-        return Mathf.Max(EventToUI[e].Split(' ').Length / 2, UIContent.UI_MIN_DELAY_SECONDS);
+    public static int getUILength(EventTypes e)
+    {
+        return Mathf.Max(
+            EventToUI[e].Split(' ').Length / 2,
+            UIContent.UI_MIN_DELAY_SECONDS
+        );
     }
 
     public static float getAudioLength(EventTypes e)
