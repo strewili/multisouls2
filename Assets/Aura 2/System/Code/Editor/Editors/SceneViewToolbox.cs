@@ -551,7 +551,13 @@ namespace Aura2API
         /// Computes the rects of the displayed areas
         /// </summary>
         private static void ComputeRects()
-        {   
+        {
+            // Guard: if sceneView or ResourcesCollection is not ready, skip
+            if (_currentSceneView == null || Aura.ResourcesCollection == null)
+            {
+                return;
+            }
+
             Rect toolbarRect = Rect.zero;
             if (AuraEditorPrefs.ToolboxPosition == 0)
             {
