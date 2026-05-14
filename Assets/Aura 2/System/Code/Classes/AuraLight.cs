@@ -542,6 +542,12 @@ namespace Aura2API
         /// </summary>
         private void InitializeResources()
         {
+            if (Aura.ResourcesCollection == null)
+            {
+                Debug.LogError("[Aura 2] AuraResourcesCollection asset not found in a Resources folder. Please re-import Aura 2 or place the AuraResourcesCollection asset inside a 'Resources' folder.");
+                enabled = false;
+                return;
+            }
             _storeDirectionalShadowDataShader = Aura.ResourcesCollection.storeDirectionalShadowDataShader;
             _storeDirectionalSpotCookieMapShader = Aura.ResourcesCollection.storeDirectionalSpotCookieMapShader;
             _storePointLightShadowMapShader = Aura.ResourcesCollection.storePointShadowMapShader;

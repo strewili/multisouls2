@@ -45,6 +45,9 @@ namespace Valve.VR
 
         public static void Update()
         {
+            // Disabled: SteamVR is not used in this project
+            return;
+#pragma warning disable CS0162
             if (SteamVR_Settings.instance.autoEnableVR)
             {
                 bool enabledVR = false;
